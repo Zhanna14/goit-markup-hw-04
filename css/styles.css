@@ -161,8 +161,8 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-background-image: linear-gradient(to bottom,
-             rgba(46, 47, 66, 0.7),
+    background-image: linear-gradient(to bottom,
+            rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
         url(/images/people-office.jpg);
     padding-top: 188px;
@@ -211,6 +211,18 @@ background-image: linear-gradient(to bottom,
 
 /*section2*/
 
+.icon-benefits {
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+    background: var(--CLOUD, #F4F4FD);
+    padding: 24px 100px;
+    margin-bottom: 8px;
+}
+
+
 .team-container {
     padding: 32px 0;
 }
@@ -233,7 +245,30 @@ background-image: linear-gradient(to bottom,
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
 }
+
+.team-icon-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+        align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.border-icon-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+
+}
+
+.team-icon {}
 
 .content-list {
     display: flex;
