@@ -399,9 +399,6 @@ img {
 .conclusion {
     background-color: #2E2F42;
     padding: 100px 0;
-    display: flex;
-
-
 }
 
 .conclusion-text {
@@ -417,5 +414,26 @@ img {
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 0.02em;;
+        letter-spacing: 0.02em;
+        margin-bottom: 16px;
+        margin-top: 0;
+}
+
+.footer-container-social {
+    width: 208px;
+        height: 80px;
+}
+
+.footer-container {
+display: flex;
+gap: 120px;
+}
+
+.team-icon-container-foot {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
